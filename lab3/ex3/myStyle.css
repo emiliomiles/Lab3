@@ -1,0 +1,43 @@
+p
+{
+  color: black;
+  text-align: center;
+}
+header
+{
+  color: black;
+  text-align: center;
+  font-size: 30px;
+  font-family: Luminari, fantasy;
+  background-color: gray;
+}
+body
+{
+  background-color: gray;
+  text-align: center;
+  color: black;
+  font-family: Verdana, sans-serif;
+  background-image: url(Rocks.JPG);
+  background-size: 200%;
+  background-repeat: no-repeat;
+}
+#wrapper
+{
+   width: 600px;
+   margin: 0 auto;
+   background-color: gray;
+   padding: 20px;
+   border: 5px solid #4CAF50;
+}
+a:hover
+{
+  color: orangered;
+}
+p.thanks
+{
+  background-color: gray;
+  font-size: 25px;
+  color: brown;
+  font-family: Trebuchet MS, sans-serif;
+  text-align: center;
+}

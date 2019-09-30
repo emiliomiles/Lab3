@@ -1,0 +1,33 @@
+<!Doctype HTML>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link href="myStyle.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="script.js">
+    </script>
+    <title> CSS Manipulation </title>
+  </head>
+  <body>
+    <header> <b>Change The Color</b>  </header>
+    <br>
+    <p id="dummy"> This is a dummy paragraph. A border will be created around the text and will change colors
+    <br> depending on the values you type in for each text box. Click "Boom" to see the changes.</p><br><br>
+    <b>Border:</b><br>
+    (RGB Values must be 0-255. Note: <i>Anything over or under is read as zero</i>)
+    <br>(<i>Blank inputs are automatically read as zero</i>)<br>
+    <u>Red Value:</u> <input type="text" id="red" name="red" value=""/>
+    <u>Green Value:</u> <input type="text" id="green" name="green" value=""/>
+    <u>Blue Value:</u> <input type="text" id="blue" name="blue" value=""/>
+    <u>Width:</u> <input type="text" id="width" name="width" value=""/>
+    <br><br>
+    <b>Background Color:</b><br>
+    (RGB Values must be 0-255. Note: <i>Anything over or under is read as zero</i>)
+    <br>(<i>Blank inputs are automatically read as zero</i>)<br>
+    <u>Red Value:</u> <input type="text" id="bred" name="bred" value=""/>
+    <u>Green Value:</u> <input type="text" id="bgreen" name="bgreen" value=""/>
+    <u>Blue Value:</u> <input type="text" id="bblue" name="bblue" value=""/>
+    <br><br>
+
+    <button onclick="change()"> BOOM </button>
+  </body>
+</html>
